@@ -35,7 +35,7 @@ def loginView(req):
     return render(req,'login.html',locals())
 
 def logoutView(req):
-    logoutView(req)
+    logout(req)
     return redirect('/')
 
 @login_required(login_url='/user/login.html')

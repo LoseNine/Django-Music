@@ -145,7 +145,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS=(
     os.path.join(BASE_DIR,'static'),
 )
-
-
 #自定义用户表
 AUTH_USER_MODEL='user.MyUser'
